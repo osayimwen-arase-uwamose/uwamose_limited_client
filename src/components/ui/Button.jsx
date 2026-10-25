@@ -12,15 +12,10 @@ export default function Button({
     outline: "button-outline",
   };
 
-  const elementProps =
-    Element === "button"
-      ? { type: type ?? "button" }
-      : {};
-
   return (
     <Element
       className={`button-base focus-ring ${variants[variant] ?? variants.primary} ${className}`.trim()}
-      {...elementProps}
+      {...(Element === "button" ? { type: type ?? "button" } : {})}
       {...props}
     >
       {children}

@@ -5,11 +5,8 @@ export default function Container({
   ...props
 }) {
   return (
-    <Element
-      className={`container-page ${className}`.trim()}
-      {...props}
-    >
+    <Element className={`container-page ${className}`.trim()} {...props}>
       {children}
     </Element>
   );
-};
+}
