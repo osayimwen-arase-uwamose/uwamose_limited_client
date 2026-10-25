@@ -1,5 +1,6 @@
 import Container from "./Container.jsx";
 import MaterialIcon from "../ui/MaterialIcon.jsx";
+import Logo from "../ui/Logo.jsx";
 
 const footerGroups = [
   {
@@ -34,8 +35,7 @@ export default function Footer() {
       <Container>
         <div className="footer-brand">
           <a className="footer-brand-lockup" href="#home">
-            <MaterialIcon name="package_2" size={34} />
-            <span>Uwamose Limited</span>
+            <Logo />
           </a>
           <p>
             Modern agro-processing and certified packaged food manufacturing.

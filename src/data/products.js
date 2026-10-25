@@ -1,6 +1,3 @@
-import plantainFlourSachet from "../assets/product-images/900g-sachet.jpg"
-import plantainFlourCarton from "../assets/product-images/carton.jpg";
-
 export const productImages = {
   hero:
     "https://lh3.googleusercontent.com/aida-public/AB6AXuCVXmc5MRpQrTL0dLaFquCHzRkAcW4QELO6UPw3cWLrmwB0uSht3B-yHhJkvDu3setPq8KB5zpQfr0_mBUxB62nqB6kMHMtUDmT8RTItlkr_6ya5-nbcYBPfbp8deAaWZ1UxFzmiwYXgWD97IgAzdUGx6Ri9kdc73WiEqSD5-BC9ZjpV9cjGbIXRBEhFDalNI6yVRhhXWrv1iiFTSpeV6vVKE3zcq2NFSbwTP5xiG3bONpsd4r2gJEngSAACudTrIAp9qtl8QRJijCO",

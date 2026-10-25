@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Container from "./Container.jsx";
 import MaterialIcon from "../ui/MaterialIcon.jsx";
+import Logo from "../ui/Logo.jsx";
 import { navigation } from "../../data/navigation.js";
 
 export default function Header() {
@@ -12,8 +13,7 @@ export default function Header() {
     <header className="site-header">
       <Container className="header-inner">
         <a className="brand-lockup focus-ring" href="#home" onClick={closeMenu} aria-label="Uwamose Limited home">
-          <MaterialIcon name="package_2" size={30} className="brand-icon" />
-          <span>Uwamose Limited</span>
+         <Logo />
         </a>
 
         <nav className="desktop-nav" aria-label="Main navigation">
