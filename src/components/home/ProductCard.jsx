@@ -2,13 +2,13 @@ import Button from "../ui/Button.jsx";
 import Badge from "../ui/Badge.jsx";
 import MaterialIcon from "../ui/MaterialIcon.jsx";
 
-export default function ProductCard({ product }) {
+export default function ProductCard({ product, image }) {
   const isRetail = product.variant === "retail";
 
   return (
     <article className={`product-card surface-card ${isRetail ? "product-card-retail" : "product-card-wholesale"}`}>
       <div className="product-card-image product-image-surface">
-        <img src={product.image} alt={product.imageAlt} loading="lazy" />
+        <img src={image} alt={product.imageAlt} loading="lazy" />
       </div>
 
       <div className="product-card-content">
