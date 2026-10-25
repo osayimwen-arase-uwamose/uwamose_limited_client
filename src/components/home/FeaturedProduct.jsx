@@ -11,7 +11,7 @@ export default function FeaturedProduct() {
   const cartLabel =
     selectedVariant === "retail"
       ? "Add 900g Sachet to Cart"
-      : "Add 10.8kg Master Carton to Cart";
+      : "Add Carton of 12X 900g to Cart";
 
   return (
     <article className="featured-product">

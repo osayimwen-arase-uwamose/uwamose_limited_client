@@ -7,7 +7,7 @@ export default function BenefitsSection() {
     <section id="benefits" className="benefits-section section-spacing">
       <Container>
         <div className="benefits-heading">
-          <span className="benefits-eyebrow">Theodore Processing Standard</span>
+          <span className="benefits-eyebrow">Uwamose limited Processing Standard</span>
           <h2>Why Purchase From Us</h2>
           <p>
             We eliminate traditional processing flaws with strict modern

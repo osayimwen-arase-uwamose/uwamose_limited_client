@@ -3,17 +3,17 @@ import MaterialIcon from "../ui/MaterialIcon.jsx";
 
 const footerGroups = [
   {
-    title: "Packaged Staples",
+    title: "Packaged products",
     links: [
-      { label: "Plantain Flour 900g Pouch", href: "#products" },
-      { label: "Commercial 12-Pack Carton", href: "#products" },
+      { label: "Plantain Flour 900g sachet", href: "#products" },
+      { label: "12-Pack Carton", href: "#products" },
       { label: "Pure Bean Flour (Coming Soon)", href: "#about" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "About Theodore Limited", href: "#about" },
+      { label: "About Uwamose Limited", href: "#about" },
       { label: "Quality & Hygiene Standards", href: "#benefits" },
       { label: "Contact & Inquiries", href: "#wholesale" },
     ],
@@ -22,8 +22,8 @@ const footerGroups = [
     title: "Regulatory & Legal",
     links: [
       { label: "NAFDAC Compliance", href: "#wholesale" },
-      { label: "Terms & Wholesale Policy", href: "#wholesale" },
-      { label: "Privacy Policy", href: "#wholesale" },
+      // { label: "Terms & Wholesale Policy", href: "#wholesale" },
+      // { label: "Privacy Policy", href: "#wholesale" },
     ],
   },
 ];
@@ -35,11 +35,11 @@ export default function Footer() {
         <div className="footer-brand">
           <a className="footer-brand-lockup" href="#home">
             <MaterialIcon name="package_2" size={34} />
-            <span>Theodore Limited</span>
+            <span>Uwamose Limited</span>
           </a>
           <p>
             Modern agro-processing and certified packaged food manufacturing.
-            Delivering pure, unadulterated Nigerian staple foods direct to
+            Delivering pure, unadulterated Nigerian food products direct to
             households, retailers, and export markets worldwide.
           </p>
         </div>
@@ -57,13 +57,8 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>
-            © {new Date().getFullYear()} Theodore Limited. Packaged Food
-            Processing &amp; Manufacturing. All rights reserved.
+            © {new Date().getFullYear()} Uwamose Limited. All rights reserved.
           </p>
-          <div className="footer-trust-items">
-            <span><MaterialIcon name="check" size={16} /> 100% Unadulterated</span>
-            <span><MaterialIcon name="check" size={16} /> Factory Sealed</span>
-          </div>
         </div>
       </Container>
     </footer>

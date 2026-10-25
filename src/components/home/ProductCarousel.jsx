@@ -2,9 +2,12 @@ import { useEffect, useState } from "react";
 import MaterialIcon from "../ui/MaterialIcon.jsx";
 import { productImages } from "../../data/products.js";
 
+import plantainFlourSachet from "../../assets/product-images/900g-sachet.jpg";
+import plantainFlourCarton from "../../assets/product-images/carton.jpg";
+
 const slides = [
-  { src: productImages.retail, alt: "Pure Plantain Flour 900g retail pouch", caption: "Retail 900g Pouch" },
-  { src: productImages.bulk, alt: "Commercial 12-pack master carton", caption: "Commercial 12-Pack Carton" },
+  { src: plantainFlourSachet, alt: "Pure Plantain Flour 900g retail pouch", caption: "Retail 900g Sachet" },
+  { src: plantainFlourCarton, alt: "12-pack carton", caption: "12-Pack Carton" },
 ];
 
 export default function ProductCarousel({ selectedVariant, onSelectVariant }) {

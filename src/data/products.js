@@ -1,8 +1,7 @@
+import plantainFlourSachet from "../assets/product-images/900g-sachet.jpg"
+import plantainFlourCarton from "../assets/product-images/carton.jpg";
+
 export const productImages = {
-  retail:
-    "https://lh3.googleusercontent.com/aida/AEtjO1VOIt8r3wtSQJhU-2OsTF4e_DeZ_E9wcF9yBo_vm_HtKzPtJu9WXo5ZUQVqyEfL3Rcn-RSR5qGJQjBwekP57dButNJ4Tj8aUFAl72domMlvMsSWFzqbDdXbUVbz1wuJRMfIJV4rvL1nz29F1jH_YilCk6IbLsXhZENckFYyObK75W7plDp2miVsLxGWHNqfjHrVmeqBP98JKMYniFjwlU6NrTdaWj0E9pC-6kOLC5usFK_XjBCHEE5tXAvDdLPPdWlVGyr3U5YB974",
-  bulk:
-    "https://lh3.googleusercontent.com/aida/AEtjO1VZQr96hAAuWRBxXuabwa6sGINXxC9wdpUscOaf4d_tGoCWQLvPyI4yjR9rn6w6bHagd8wMouYzJ5yq4O79nvpI9W_uSZ6Wdl67cPwMetqESmNXC0E8mkq7VgsP1dYF6n5QoJ0CuBaRs8iG4kjOj08a19lsESwpsg9ZDihBJwNNv86eO2umqW2oOq8xuSC4ZugrcgutT6e5anuJbzAQB4wE0DL1ukmFbER4iKluCXM1jN-p1rNZZrPgRg7qZmSA0lZe42gRA1fZSQ0",
   hero:
     "https://lh3.googleusercontent.com/aida-public/AB6AXuCVXmc5MRpQrTL0dLaFquCHzRkAcW4QELO6UPw3cWLrmwB0uSht3B-yHhJkvDu3setPq8KB5zpQfr0_mBUxB62nqB6kMHMtUDmT8RTItlkr_6ya5-nbcYBPfbp8deAaWZ1UxFzmiwYXgWD97IgAzdUGx6Ri9kdc73WiEqSD5-BC9ZjpV9cjGbIXRBEhFDalNI6yVRhhXWrv1iiFTSpeV6vVKE3zcq2NFSbwTP5xiG3bONpsd4r2gJEngSAACudTrIAp9qtl8QRJijCO",
 };

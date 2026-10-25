@@ -26,7 +26,7 @@ export default function UpcomingProductSection() {
 
             <h2>Pure Roasted Bean Flour</h2>
             <p className="upcoming-description">
-              Theodore Limited's next innovation will completely eliminate
+              Uwamose Limited's next product will completely eliminate
               the exhausting labor of soaking and manual peeling. Our upcoming
               100% natural, roasted and finely milled bean flour is formulated
               specifically for light, fluffy Akara and ultra-smooth Moi-Moi
@@ -52,15 +52,15 @@ export default function UpcomingProductSection() {
               <MaterialIcon name="soup_kitchen" size={48} />
             </div>
             <Badge variant="secondary">Coming Soon</Badge>
-            <h3>Roasted Brown Bean Flour</h3>
+            <h3>Bean Flour</h3>
             <p>
-              100% dehulled, cleaned, and stone-milled cowpea beans. Coming in
+              Coming in
               500g and 1kg retail sachets as well as catering bulk cartons.
             </p>
 
             <div className="launch-stats">
               <div>
-                <strong>Q2</strong>
+                <strong>soon</strong>
                 <span>Launch Window</span>
               </div>
               <span className="launch-divider" aria-hidden="true" />

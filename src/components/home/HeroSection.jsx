@@ -20,13 +20,13 @@ export default function HeroSection() {
           <div className="hero-intro-copy">
             <Badge variant="light" className="hero-brand-badge">
               <MaterialIcon name="factory" size={16} />
-              Theodore Limited
+              Uwamose Limited
             </Badge>
 
             <h1>Wholesome Packaged Foods, Processed &amp; Sealed With Care.</h1>
 
             <p>
-              At Theodore Limited, we transform premium agricultural staples
+              At Uwamose Limited, we transform premium agricultural staples
               into certified, factory-sealed pantry essentials. Starting with
               our flagship Pure Plantain Flour, every batch represents
               unmatched purity, consistent texture, and strict hygienic

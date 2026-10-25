@@ -8,7 +8,7 @@ export default function ProductsSection() {
     <section id="products" className="section-spacing products-section">
       <Container>
         <SectionHeading
-          eyebrow="Theodore Catalog"
+          eyebrow="Uwamose Limited Catalog"
           icon="inventory_2"
           title="Our Products"
           description="Discover Theodore Limited's growing range of hygienically processed staple foods. We adhere to stringent milling and moisture-tight packaging protocols to supply households, supermarkets, and international distributors."

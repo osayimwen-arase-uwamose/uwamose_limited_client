@@ -11,9 +11,9 @@ export default function Header() {
   return (
     <header className="site-header">
       <Container className="header-inner">
-        <a className="brand-lockup focus-ring" href="#home" onClick={closeMenu} aria-label="Theodore Limited home">
+        <a className="brand-lockup focus-ring" href="#home" onClick={closeMenu} aria-label="Uwamose Limited home">
           <MaterialIcon name="package_2" size={30} className="brand-icon" />
-          <span>Theodore Limited</span>
+          <span>Uwamose Limited</span>
         </a>
 
         <nav className="desktop-nav" aria-label="Main navigation">

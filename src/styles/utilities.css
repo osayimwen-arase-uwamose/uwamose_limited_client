@@ -49,7 +49,7 @@
   }
 
   .button-base:active { transform: translateY(1px); }
-  .button-primary { background: var(--color-primary); color: var(--color-text-inverse); }
+  .button-primary { background: var(--color-primary); color: white; }
   .button-primary:hover { background: var(--color-primary-container); }
   .button-secondary { background: var(--color-secondary-container); color: var(--color-text); }
   .button-secondary:hover { filter: brightness(1.04); }

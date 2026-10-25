@@ -233,9 +233,6 @@
 .footer-link-group a:hover { color: var(--color-secondary-container); }
 .footer-bottom { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.25rem; margin-top: 1rem; padding-top: 1.5rem; border-top: 1px solid rgb(191 201 195 / 30%); }
 .footer-bottom > p { color: #dce2f7; font-size: .8rem; line-height: 1.6; }
-.footer-trust-items { display: flex; flex-wrap: wrap; gap: 1rem; color: #dce2f7; font-family: var(--font-label); font-size: .65rem; }
-.footer-trust-items span { display: inline-flex; align-items: center; gap: .35rem; }
-.footer-trust-items svg { color: var(--color-secondary-container); }
 
 @media (min-width: 768px) {
   .benefit-card:nth-child(5) { grid-column: span 1; }
@@ -298,5 +295,4 @@
   .badge-row { gap: .4rem; }
   .hero-actions { gap: .65rem; }
   .benefits-grid { grid-template-columns: minmax(0, 1fr); }
-  .footer-trust-items { flex-direction: column; gap: .6rem; }
 }
