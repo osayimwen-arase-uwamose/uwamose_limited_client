@@ -1,0 +1,64 @@
+:root {
+  color-scheme: light;
+
+  /* Brand */
+  --color-primary: #003527;
+  --color-primary-container: #064e3b;
+  --color-primary-fixed: #b0f0d6;
+  --color-primary-light: #95d3ba;
+
+  /* Accent */
+  --color-secondary: #735c00;
+  --color-secondary-container: #fed01b;
+  --color-secondary-fixed: #ffe083;
+
+  /* Surfaces */
+  --color-background: #f9f9ff;
+  --color-surface: #f9f9ff;
+  --color-surface-bright: #f9f9ff;
+  --color-surface-low: #f1f3ff;
+  --color-surface-container: #e9edff;
+  --color-surface-high: #e1e8fd;
+  --color-surface-highest: #dce2f7;
+  --color-surface-white: #ffffff;
+
+  /* Text */
+  --color-text: #141b2b;
+  --color-text-secondary: #404944;
+  --color-text-muted: #707974;
+  --color-text-inverse: #ffffff;
+
+  /* Borders */
+  --color-border: #bfc9c3;
+  --color-border-strong: #707974;
+
+  /* Feedback */
+  --color-error: #ba1a1a;
+
+  /* Typography */
+  --font-heading: "Hanken Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "JetBrains Mono", monospace;
+
+  /* Layout */
+  --container-width: 1280px;
+  --gutter: 24px;
+  --page-padding-mobile: 20px;
+  --page-padding-desktop: 64px;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Elevation */
+  --shadow-card: 0 4px 12px rgb(20 27 43 / 6%);
+  --shadow-card-hover: 0 16px 32px rgb(20 27 43 / 12%);
+  --shadow-featured: 0 24px 48px rgb(0 0 0 / 20%);
+
+  /* Motion */
+  --transition-fast: 180ms ease;
+  --transition-normal: 300ms ease;
+}

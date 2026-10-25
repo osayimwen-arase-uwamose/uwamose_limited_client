@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap");
+
+@import "tailwindcss";
+@import "./theme.css";
+@import "./utilities.css";
+
+@theme {
+  --color-primary: #003527;
+  --color-primary-container: #064e3b;
+  --color-primary-fixed: #b0f0d6;
+
+  --color-secondary: #735c00;
+  --color-secondary-container: #fed01b;
+
+  --color-background: #f9f9ff;
+  --color-surface: #f9f9ff;
+  --color-surface-container: #e9edff;
+  --color-surface-container-low: #f1f3ff;
+
+  --color-on-background: #141b2b;
+  --color-on-surface: #141b2b;
+  --color-on-surface-variant: #404944;
+  --color-outline-variant: #bfc9c3;
+
+  --font-heading: "Hanken Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "JetBrains Mono", monospace;
+
+  --breakpoint-xs: 30rem;
+}
+
+:root {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+
+  font-optical-sizing: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--font-body);
+}
+
+button,
+input,
+textarea,
+select {
+  font-size: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--color-secondary-container);
+  outline-offset: 3px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: var(--font-heading);
+}
+
+p {
+  margin: 0;
+}
+
+::selection {
+  color: #ffffff;
+  background: var(--color-primary-container);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
