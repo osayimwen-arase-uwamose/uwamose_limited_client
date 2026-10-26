@@ -6,7 +6,9 @@
     padding-inline: var(--page-padding-mobile);
   }
 
-  .section-spacing { padding-block: 6rem; }
+  .section-spacing { 
+    padding-block: 6rem;
+  }
 
   .section-heading {
     max-width: 42rem;
@@ -21,9 +23,7 @@
     gap: .5rem;
     width: fit-content;
     padding: .375rem .75rem;
-    border: 1px solid rgb(0 53 39 / 15%);
     border-radius: var(--radius-full);
-    background: rgb(0 53 39 / 6%);
     color: var(--color-primary);
     font-family: var(--font-label);
     font-size: .75rem;

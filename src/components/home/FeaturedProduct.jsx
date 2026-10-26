@@ -24,7 +24,7 @@ export default function FeaturedProduct() {
         <div className="featured-details">
           <div className="featured-copy">
             <div className="badge-row">
-              <Badge>100% Sun-Dried &amp; Unripe</Badge>
+              <Badge>100% Oven-Dried &amp; Unripe</Badge>
               <Badge variant="secondary">Gluten-Free</Badge>
             </div>
 
@@ -66,4 +66,4 @@ export default function FeaturedProduct() {
       </div>
     </article>
   );
-}
+};
