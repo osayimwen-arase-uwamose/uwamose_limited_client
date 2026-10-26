@@ -24,7 +24,7 @@ export default function UpcomingProductSection() {
               <span className="benefits-eyebrow">What's Next</span>
             </div>
 
-            <h2>Pure Roasted Bean Flour</h2>
+            <h2>Bean Flour</h2>
             <p className="upcoming-description">
               Uwamose Limited's next product will completely eliminate
               the exhausting labor of soaking and manual peeling. Our upcoming
