@@ -12,7 +12,7 @@ export const products = [
     image: productImages.retail,
     imageAlt: "Retail pack of Pure Plantain Flour in a 900g pouch",
     description:
-      "Hermetically sealed retail bag with foil moisture-barrier lining. Keeps fresh and lump-free for culinary preparation, fufu/swallow, and enriched baking.",
+      "Sealed retail bag with foil moisture-barrier lining. Keeps fresh and lump-free for culinary preparation, fufu/swallow, and enriched baking.",
     unitLabel: "Consumer Unit",
     availability: "Ready to Ship",
     actionLabel: "Order Retail Unit",
@@ -21,13 +21,13 @@ export const products = [
   },
   {
     id: "plantain-flour-carton",
-    title: "Commercial Master Carton",
-    format: "Wholesale Master Case",
+    title: "12 pack carton",
+    format: "12 pack carton",
     packageLabel: "12 × 900g (10.8kg)",
     image: productImages.bulk,
-    imageAlt: "Commercial master carton containing twelve 900g pouches",
+    imageAlt: "Carton containing twelve 900g pouches",
     description:
-      "Reinforced corrugated shipping carton containing 12 individually sealed 900g sachets. Engineered for export transit, distributor stacking, and retail grocery shelves.",
+      "Carton containing 12 individually sealed 900g sachets. Engineered for export transit, distributor stacking, and retail grocery shelves.",
     actionLabel: "Order Bulk Carton",
     icon: "inventory_2",
     variant: "bulk",

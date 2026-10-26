@@ -14,7 +14,7 @@ export default function ProductsSection() {
           eyebrow="Uwamose Limited Catalog"
           icon="inventory_2"
           title="Our Products"
-          description="Discover Theodore Limited's growing range of hygienically processed staple foods. We adhere to stringent milling and moisture-tight packaging protocols to supply households, supermarkets, and international distributors."
+          description="Discover Uwamose Limited's growing range of hygienically processed staple foods. We adhere to stringent milling and moisture-tight packaging protocols to supply households, supermarkets, and international distributors."
         />
 
         <div className="product-group">
@@ -23,7 +23,7 @@ export default function ProductsSection() {
               <h3>Uwamose Plantain Flour</h3>
               <p>
                 Milled exclusively from unripe, hand-selected green plantains
-                with zero sand residue, additives, or gluten.
+                with zero additives or gluten.
               </p>
             </div>
           </div>
