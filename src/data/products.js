@@ -6,7 +6,7 @@ export const productImages = {
 export const products = [
   {
     id: "plantain-flour-retail",
-    title: "Pure Plantain Flour (900g Pouch)",
+    title: "Uwamose Plantain Flour (900g Pouch)",
     format: "Retail Pack",
     packageLabel: "900g Stand-Up Pouch",
     image: productImages.retail,
@@ -21,7 +21,7 @@ export const products = [
   },
   {
     id: "plantain-flour-carton",
-    title: "12 pack carton",
+    title: "Uwamose plantain flour (12 pack carton)",
     format: "12 pack carton",
     packageLabel: "12 × 900g (10.8kg)",
     image: productImages.bulk,
